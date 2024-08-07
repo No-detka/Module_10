@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: monospace;
+}
+
+main {
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+}
+
+.frame {
+    position: sticky
+}
+
+.input {
+    width: 16%;
+}
+
+button {
+    background: rgb(250, 60, 225);
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    border: none;
+    padding: 7px 10px;
+    cursor: pointer;
+    transition: background 400ms ease;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    background: #70016b;
+}
+
+.output {
+    display: flex;
+    font-weight: bold;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 20px;
+    width: 40%;
+    border: 3px solid rgb(110, 181, 240);
+    min-height: 500px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(130deg, rgb(240, 1, 148) 0%, rgb(141, 93, 255) 100%);
+}
+
+.server__message {
+    margin: 5px;
+    color: rgb(82, 2, 68);
+    max-width: 70%;
+    word-break: break-all;
+}
+
+.user__message {
+    margin-right: -9px;
+    color: rgb(88, 1, 138);
+    max-width: 70%;
+    word-break: break-all;
+    align-self: end;
+    margin: 5px;
+}
+
+p {
+    display: flex;
+    border: 1px solid rgb(110, 181, 240);
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.open {
+    color: rgb(4, 253, 4);
+    font-size: medium;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.close {
+    color: rgb(146, 2, 2);
+    font-size: medium;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.geo {
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    color: rgb(255, 233, 248);
+}
